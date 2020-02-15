@@ -29,7 +29,7 @@ class Main {
       System.exit(1);
     }
 
-    // String storageEmulatorHost = System.getenv("STORAGE_EMULATOR_HOST");
+    String storageEmulatorHost = System.getenv("STORAGE_EMULATOR_HOST");
     // if (storageEmulatorHost == null || storageEmulatorHost.equals("")) {
     //   // We could use system properties here too, but every other language uses
     //   // an environment variable called STORAGE_EMULATOR_HOST, so the
