@@ -32,7 +32,7 @@ class StorageBenchWrapperImpl extends StorageBenchWrapperImplBase {
   private Storage client;
 
   public StorageBenchWrapperImpl(String storageEmulatorHost) {
-    if (String.isEmpty()){
+    if (String.isEmpty(storageEmulatorHost)){
       client = StorageOptions.newBuilder()
           .build()
           .getService();
